@@ -8,24 +8,72 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 16px 10%;
+    padding: 16px 15% 0 15%;
 }
     .header-logo {
         color: #f9faf8;
         font-size: 24px;
         font-weight: bold;
+        flex-shrink: 0;
     }
 
     .header-links {
         display: flex;
         gap: 16px;
         list-style-type: none;
+        flex-shrink: 0;
     }
     .header-links a {
         text-decoration: none;
         color: #e5e7eb;
         font-size: 18px;
+    }
+
+.section1 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 64px 15%;
+    gap: 16px;
+}
+
+    .hero-text {
+        width: 50%;
+    }
+    .hero-text h1 {
+        font-size: 48px;
+        font-weight: bold;
+        color: #f9faf8;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .hero-text .subtext {
+        font-size: 18px;
+        color: #e5e7eb;
+        margin: 0;
+    }
+    .hero-text button {
+        border-radius: 8px;
+        border: none;
+        background-color: #3882f6;
+        color: #f9faf8;
+        font-size: 18px;
+        padding: 8px 32px;
+        margin-top: 8px;
+
+    }
+/*  I'm not sure how to center the text here vertically
+    without the grey background being reduced to one line.
+    I'll be going back to that later */
+    .hero-image {
+        width: 50%;
+        background-color: rgb(145, 145, 145);
+        color: #e5e7eb;
+        font-size: 18px;
+        text-align: center;
+
+
     }
