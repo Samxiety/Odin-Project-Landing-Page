@@ -70,14 +70,18 @@ body {
 /*  I'm not sure how to center the text here vertically
     without the grey background being reduced to one line.
     I'll be going back to that later */
-    .hero-image {
+    .hero .image {
+        display: flex;
         width: 50%;
         background-color: rgb(130, 131, 133);
-        color: #f9faf8;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero .image .text {
         font-size: 18px;
+        color: #f9faf8;
         text-align: center;
-
-
+        padding: 0 8px;
     }
 
 .info {
