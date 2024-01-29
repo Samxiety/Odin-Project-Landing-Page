@@ -123,15 +123,17 @@ body {
     .quote-column {
         display: flex;
         flex-direction: column;
-        padding: 64px 15%;
+        padding: 64px 20%;
     }
     .quote-column .text {
         align-self: flex-start;
+        text-align: start;
         font-size: 36px;
         font-weight: lighter;
         font-style: italic;
         color: #1F2937;
         margin-bottom: 0;
+        
     }
     .quote-column .author {
         align-self: flex-end;
@@ -139,4 +141,41 @@ body {
         font-weight: bold;
         color: #1F2937;
         margin-top: 0;
+    }
+
+.call-banner {
+    display: flex;
+    margin: 64px 15%;
+    padding: 48px 64px;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    align-items: center;
+}
+    .call-banner .text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .call-banner h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #f9faf8;
+        margin: 0;
+    }
+    .call-banner p {
+        font-size: 18px;
+        color: #e5e7eb;
+        margin: 0;
+    }
+    .call-banner button {
+        border-radius: 8px;
+        border: 2px solid #f9faf8;
+        color: #f9faf8;
+        background-color: #3882f6;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 4px 32px;
+        height: 36px;
+        
     }
