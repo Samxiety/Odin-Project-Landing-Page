@@ -116,3 +116,27 @@ body {
     .info-row .row {
         width: 168px;
     }
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+    .quote-column {
+        display: flex;
+        flex-direction: column;
+        padding: 64px 15%;
+    }
+    .quote-column .text {
+        align-self: flex-start;
+        font-size: 36px;
+        font-weight: lighter;
+        font-style: italic;
+        color: #1F2937;
+        margin-bottom: 0;
+    }
+    .quote-column .author {
+        align-self: flex-end;
+        font-size: 24px;
+        font-weight: bold;
+        color: #1F2937;
+        margin-top: 0;
+    }
