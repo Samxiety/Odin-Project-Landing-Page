@@ -176,6 +176,15 @@ body {
         font-size: 18px;
         font-weight: bold;
         padding: 4px 32px;
-        height: 36px;
-        
+        height: 36px;   
     }
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 18px;
+    margin-top: auto;
+}
