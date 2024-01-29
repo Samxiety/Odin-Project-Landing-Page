@@ -4,6 +4,7 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: "Roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
 }
 
 .header {
@@ -32,12 +33,13 @@ body {
         font-size: 18px;
     }
 
-.section1 {
+.hero {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
     padding: 64px 15%;
     gap: 16px;
+    text-align: start;
 }
 
     .hero-text {
@@ -70,10 +72,47 @@ body {
     I'll be going back to that later */
     .hero-image {
         width: 50%;
-        background-color: rgb(145, 145, 145);
-        color: #e5e7eb;
+        background-color: rgb(130, 131, 133);
+        color: #f9faf8;
         font-size: 18px;
         text-align: center;
 
 
+    }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 64px 15%;
+    background-color: white;
+
+}
+    .info .title {
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .info .info-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 64px;
+    }
+    .info-row .box {
+        width: 164px;
+        height: 164px;
+        border-color: #3882f6;
+        border-radius: 8px;
+        border-width: 2px;
+        border-style: solid;
+    }
+    .info-row .text {
+        font-size: 18px;
+        color: rgb(105, 105, 105);
+    }
+    .info-row .row {
+        width: 168px;
     }
