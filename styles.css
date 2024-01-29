@@ -156,6 +156,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        text-align: start;
     }
     .call-banner h2 {
         font-size: 24px;
@@ -177,6 +178,8 @@ body {
         font-weight: bold;
         padding: 4px 32px;
         height: 36px;   
+        width: max-content;
+        flex-shrink: 0;
     }
 
 .footer {
